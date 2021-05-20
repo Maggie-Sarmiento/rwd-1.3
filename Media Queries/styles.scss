@@ -1,5 +1,5 @@
-$small: 320px;
-$medium: 640px;
+$small: 640px;
+$medium: 1024px;
 
 @mixin rwd($breakpoint) {
     @media screen and(min-width: $breakpoint) {
