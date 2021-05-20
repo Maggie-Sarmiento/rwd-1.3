@@ -1,0 +1,18 @@
+/* Movile first */
+
+
+body {
+    background-color: red;
+}
+
+/* @media screen and (max-width:1024px) and (orientation: landscape) {
+    body {
+        background-color: yellow;
+    }
+} */
+
+
+@media screen and (min-aspect-ratio:4/3) {
+    body {
+        background-color: yellow;
+    }
